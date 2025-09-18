@@ -84,12 +84,22 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Docker.Docker Image (1)">
+  <component name="RunManager" selected="Docker.Docker Image (2)">
     <configuration name="Docker Image (1)" type="docker-deploy" factoryName="docker-image" temporary="true" server-name="Docker">
       <deployment type="docker-image">
         <settings>
           <option name="imageTag" value="mongo:latest" />
           <option name="containerName" value="mongo-dbserver" />
+          <option name="commandLineOptions" value="--network se-methods" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="Docker Image (2)" type="docker-deploy" factoryName="docker-image" temporary="true" server-name="Docker">
+      <deployment type="docker-image">
+        <settings>
+          <option name="imageTag" value="sha256:ad22559c552837f14697e2bc58149eae113ed65b929fa3fc71299d868ae8314b" />
+          <option name="containerName" value="" />
           <option name="commandLineOptions" value="--network se-methods" />
         </settings>
       </deployment>
@@ -108,6 +118,7 @@
     <configuration name="Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
       <deployment type="dockerfile">
         <settings>
+          <option name="buildOnly" value="true" />
           <option name="containerName" value="" />
           <option name="sourceFilePath" value="Dockerfile" />
         </settings>
@@ -126,9 +137,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Docker.Docker Image (2)" />
+        <item itemvalue="Docker.Dockerfile" />
         <item itemvalue="Docker.Docker Image (1)" />
         <item itemvalue="Docker.Docker Image" />
-        <item itemvalue="Docker.Dockerfile" />
       </list>
     </recent_temporary>
   </component>
