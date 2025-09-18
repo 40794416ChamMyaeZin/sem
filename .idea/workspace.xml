@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="744c4f29-5f34-4eaa-abf9-c796a3b7171d" name="Changes" comment="Add badge at read me">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="744c4f29-5f34-4eaa-abf9-c796a3b7171d" name="Changes" comment="Update App.java">
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,7 +146,7 @@
       <workItem from="1758169353581" duration="109000" />
       <workItem from="1758169470808" duration="10000" />
       <workItem from="1758169501060" duration="1181000" />
-      <workItem from="1758171525360" duration="482000" />
+      <workItem from="1758171525360" duration="1008000" />
     </task>
     <task id="LOCAL-00001" summary="first initial commit">
       <option name="closed" value="true" />
@@ -180,7 +180,23 @@
       <option name="project" value="LOCAL" />
       <updated>1758170303939</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add mongodb denpendencies">
+      <option name="closed" value="true" />
+      <created>1758172192528</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1758172192528</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Update App.java">
+      <option name="closed" value="true" />
+      <created>1758172321186</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1758172321186</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,7 +207,9 @@
     <MESSAGE value="Hello world" />
     <MESSAGE value="Add Dockerfile" />
     <MESSAGE value="Add badge at read me" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add badge at read me" />
+    <MESSAGE value="Add mongodb denpendencies" />
+    <MESSAGE value="Update App.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update App.java" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
